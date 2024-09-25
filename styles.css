@@ -111,7 +111,8 @@ body {
 
 .attribution {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
+    text-align: center;
 }
 
 .attribution a {
@@ -173,6 +174,11 @@ body {
 
     .card p {
         font-size: 14px;
+    }
+
+    .attribution {
+        position: static;
+        padding: 10px 15px;
     }
 }
 
